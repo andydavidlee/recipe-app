@@ -1,13 +1,12 @@
 import React from 'react'
-
-import MealList from '../components/MealList'
+import { HeaderButtons, Item } from 'react-navigation-header-buttons'
 import { useSelector } from 'react-redux'
 
-import { HeaderButtons, Item } from 'react-navigation-header-buttons'
+import MealList from '../components/MealList'
 import HeaderButton from '../components/HeaderButton'
 
 const FavouritesScreen = (props) => {
-	const favMeals = useSelector((state) => state.meals.favouriteMeals)
+	const favMeals = useSelector((state) => state.meals.favoriteMeals)
 
 	return <MealList listData={favMeals} navigation={props.navigation} />
 }
