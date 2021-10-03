@@ -1,3 +1,5 @@
+// Actions file. contains a 'type' and a 'payload'
+
 export const TOGGLE_FAVORITE = 'TOGGLE_FAVORITE'
 export const SET_FILTERS = 'SET_FILTERS'
 

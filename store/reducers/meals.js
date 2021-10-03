@@ -1,7 +1,11 @@
+// Reducers file for the meals
+// Importing the meals data
 import { MEALS } from '../../data/dummy-data'
+// Importing the actions
 import { TOGGLE_FAVORITE } from '../actions/meals'
 import { SET_FILTERS } from '../actions/meals'
 
+// Initial state
 const initialState = {
 	meals: MEALS,
 	filteredMeals: MEALS,

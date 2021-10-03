@@ -1,3 +1,5 @@
+// Hit the favorite icon in the MealDetailsScreen.js and the meal selected will appear in this menu
+
 import React from 'react'
 import { View, Text, StyleSheet } from 'react-native'
 import { HeaderButtons, Item } from 'react-navigation-header-buttons'

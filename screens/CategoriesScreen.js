@@ -1,3 +1,5 @@
+// The categories for the meal types are displayed here
+
 import React from 'react'
 import { StyleSheet, FlatList } from 'react-native'
 import { HeaderButtons, Item } from 'react-navigation-header-buttons'

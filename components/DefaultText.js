@@ -1,3 +1,5 @@
+// Reusable component for styling text
+
 import React from 'react'
 import { Text, StyleSheet } from 'react-native'
 

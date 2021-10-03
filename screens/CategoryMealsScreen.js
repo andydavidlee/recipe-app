@@ -1,3 +1,5 @@
+// The meals in your chosen category are displayed here
+
 import React from 'react'
 import { View, StyleSheet } from 'react-native'
 import { useSelector } from 'react-redux'

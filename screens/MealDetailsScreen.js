@@ -1,11 +1,16 @@
+// Screen for displaying the indiviual meals
+
+// Importing the react modules
 import React, { useEffect, useCallback } from 'react'
 import { View, Text, StyleSheet, ScrollView, Image } from 'react-native'
 import { HeaderButtons, Item } from 'react-navigation-header-buttons'
-
 import { useSelector, useDispatch } from 'react-redux'
+
+// Importing components
 import HeaderButton from '../components/HeaderButton'
 import DefaultText from '../components/DefaultText'
 
+// Importing actions
 import { toggleFavorite } from '../store/actions/meals'
 
 const ListItem = (props) => {
@@ -16,6 +21,7 @@ const ListItem = (props) => {
 	)
 }
 
+// The main component
 const MealDetailsScreen = (props) => {
 	const availableMeals = useSelector((state) => state.meals.meals)
 	const mealId = props.navigation.getParam('mealId')
@@ -60,6 +66,7 @@ const MealDetailsScreen = (props) => {
 	)
 }
 
+// settings for the top navigation bar
 MealDetailsScreen.navigationOptions = (navigationData) => {
 	// const mealId = navigationData.navigation.getParam('mealId')
 	const mealTitle = navigationData.navigation.getParam('mealTitle')
@@ -80,6 +87,7 @@ MealDetailsScreen.navigationOptions = (navigationData) => {
 	}
 }
 
+// Styling section
 const styles = StyleSheet.create({
 	image: {
 		width: '100%',

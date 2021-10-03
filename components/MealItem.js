@@ -1,3 +1,5 @@
+// Cards that display the meal items
+
 import React from 'react'
 import {
 	View,

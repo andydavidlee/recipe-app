@@ -1,3 +1,4 @@
+// Layout for the categories screen
 import React from 'react'
 import {
 	View,

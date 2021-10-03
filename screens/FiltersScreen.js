@@ -1,3 +1,5 @@
+// Here you will find the filter switches for dietries
+
 import React, { useState, useEffect, useCallback } from 'react'
 import { View, Text, StyleSheet, Switch, Platform } from 'react-native'
 import { useDispatch } from 'react-redux'
